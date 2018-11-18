@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'discord_bots'
+project = 'bot_docs'
 copyright = '2018, Casey Nord'
 author = 'Casey Nord'
 
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'discord_bots.tex', 'discord\\_bots Documentation',
+    (master_doc, 'bot_docs.tex', 'bot\\_docs Documentation',
      'Casey Nord', 'manual'),
 ]
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'discord_bots', 'discord_bots Documentation',
+    (master_doc, 'bot_docs.tex', 'bot\\_docs Documentation',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'discord_bots', 'discord_bots Documentation',
-     author, 'discord_bots', 'One line description of project.',
+   (master_doc, 'bot_docs.tex', 'bot\\_docs Documentation',
+     author, 'bot_docs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
